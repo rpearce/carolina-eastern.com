@@ -1,0 +1,47 @@
+:root {
+  font-size: 62.5%;
+  box-sizing: border-box;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+html,
+body {
+  min-height: 100vh;
+}
+body {
+  font-kerning: normal;
+  -moz-font-feature-settings: "kern", "liga", "clig", "calt";
+  -ms-font-feature-settings: "kern", "liga", "clig", "calt";
+  -webkit-font-feature-settings: "kern", "liga", "clig", "calt";
+  font-feature-settings: "kern", "liga", "clig", "calt";
+  scroll-behavior: smooth;
+}
+body,
+input,
+button {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.fs16 { font-size: 1.6rem; }
+.fs24 { font-size: 2.4rem; }
+.fs32 { font-size: 3.2rem; }
+.lh16 { line-height: 1.6; }
+.lsn { list-style: none; }
+.m0 { margin: 0; }
+.p0 { padding: 0; }
+.ffs { font-family: Georgia, Times, Times New Roman, serif; }
+.ffss { font-family: Tahoma, Arial, sans-serif; }
+
+/*.b0 { border: 0; }*/
+/*.db { display: block; }*/
+/*.fi { font: inherit; }*/
+/*.mla { margin-left: auto; }*/
+/*.mra { margin-right: auto; }*/
+/*.mw100 { max-width: 100; }*/
+/*@media (max-width: 667px) {*/
+/*}*/
