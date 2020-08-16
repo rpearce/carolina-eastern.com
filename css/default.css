@@ -21,21 +21,22 @@ body {
   font-feature-settings: "kern", "liga", "clig", "calt";
   scroll-behavior: smooth;
 }
-body,
-input,
-button {
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+.cb { color: #243E98; }
+.cg { color: #85C341; }
+.fs { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+.ffs { font-family: Georgia, Times, Times New Roman, serif; }
+.ffss { font-family: Tahoma, Arial, sans-serif; }
 .fs16 { font-size: 1.6rem; }
 .fs24 { font-size: 2.4rem; }
 .fs32 { font-size: 3.2rem; }
 .lh16 { line-height: 1.6; }
 .lsn { list-style: none; }
 .m0 { margin: 0; }
+.mla { margin-left: auto; }
+.mra { margin-right: auto; }
+.mw600 { max-width: 60rem; }
 .p0 { padding: 0; }
-.ffs { font-family: Georgia, Times, Times New Roman, serif; }
-.ffss { font-family: Tahoma, Arial, sans-serif; }
+.tar { text-align: right; }
 
 /*.b0 { border: 0; }*/
 /*.db { display: block; }*/
