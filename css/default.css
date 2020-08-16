@@ -21,20 +21,26 @@ body {
   font-feature-settings: "kern", "liga", "clig", "calt";
   scroll-behavior: smooth;
 }
+/*.bgb { background-color: #2C1A10; }*/
+.bgf9 { background-color: #F9F9F9; }
 .cb { color: #243E98; }
 .cg { color: #85C341; }
+.cp { color: #1A1B1D; }
+.cw { color: #FFF; }
 .fs { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
-.ffs { font-family: Georgia, Times, Times New Roman, serif; }
+.ffs { font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif; }
 .ffss { font-family: Tahoma, Arial, sans-serif; }
-.fs16 { font-size: 1.6rem; }
-.fs24 { font-size: 2.4rem; }
+.fs18 { font-size: 1.8rem; }
 .fs32 { font-size: 3.2rem; }
-.lh16 { line-height: 1.6; }
+.fs40 { font-size: 4.0rem; }
+.lh11 { line-height: 1.1; }
+.lh125 { line-height: 1.25; }
+.lh17 { line-height: 1.7; }
 .lsn { list-style: none; }
 .m0 { margin: 0; }
 .mla { margin-left: auto; }
 .mra { margin-right: auto; }
-.mw600 { max-width: 60rem; }
+.mw800 { max-width: 80rem; }
 .p0 { padding: 0; }
 .tar { text-align: right; }
 
