@@ -23,6 +23,7 @@ body {
 }
 /*.bgb { background-color: #2C1A10; }*/
 .bgf9 { background-color: #F9F9F9; }
+.bsu { box-shadow: 0 0.1rem 0 0 currentColor; }
 .cb { color: #243E98; }
 .cg { color: #85C341; }
 .cp { color: #1A1B1D; }
@@ -43,6 +44,7 @@ body {
 .mw800 { max-width: 80rem; }
 .p0 { padding: 0; }
 .tar { text-align: right; }
+.tdn { text-decoration: none; }
 
 /*.b0 { border: 0; }*/
 /*.db { display: block; }*/
@@ -50,5 +52,8 @@ body {
 /*.mla { margin-left: auto; }*/
 /*.mra { margin-right: auto; }*/
 /*.mw100 { max-width: 100; }*/
-/*@media (max-width: 667px) {*/
-/*}*/
+@media (max-width: 840px) {
+  .mw800 { width: auto; }
+  .sml2 { margin-left: 2rem; }
+  .smr2 { margin-right: 2rem; }
+}
