@@ -88,7 +88,7 @@ body {
 .w100 { width: 100%; }
 
 @media (max-width: 840px) {
-  .mw800 { width: auto; }
-  .sml2 { margin-left: 2rem; }
-  .smr2 { margin-right: 2rem; }
+  .m840-ml2 { margin-left: 2rem; }
+  .m840-mr2 { margin-right: 2rem; }
+  .m840-wa { width: auto; }
 }
