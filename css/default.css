@@ -21,37 +21,67 @@ body {
   font-feature-settings: "kern", "liga", "clig", "calt";
   scroll-behavior: smooth;
 }
+.aic { -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
 /*.bgb { background-color: #2C1A10; }*/
+.b0 { border: 0; }
 .bgf9 { background-color: #F9F9F9; }
+.bgfff { background-color: #fff; }
 .bsu { box-shadow: 0 0.1rem 0 0 currentColor; }
-.cb { color: #243E98; }
-.cg { color: #85C341; }
+
+/*.c434AD6 { color: #434AD6; }*/
+.c585eda { color: #585eda; }
+.ch1E248A:hover { color: #1E248A; }
+/*.ch:hover { color: #243E98; }*/
+
 .cp { color: #1A1B1D; }
 .cw { color: #FFF; }
-.fs { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+.db { display: block; }
+.df { display: -webkit-box; display: -ms-flexbox; display: flex; }
+.dib { display: inline-block; }
 .ffs { font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif; }
 .ffss { font-family: Tahoma, Arial, sans-serif; }
+.fi { font: inherit; }
+.fs { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
 .fs18 { font-size: 1.8rem; }
 .fs32 { font-size: 3.2rem; }
 .fs40 { font-size: 4.0rem; }
+.jcsb { -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; }
 .lh11 { line-height: 1.1; }
 .lh125 { line-height: 1.25; }
 .lh17 { line-height: 1.7; }
 .lsn { list-style: none; }
 .m0 { margin: 0; }
+.ma { margin: auto; }
 .mla { margin-left: auto; }
+.mla { margin-left: auto; }
+.mr2 { margin-right: 2rem; }
 .mra { margin-right: auto; }
+.mra { margin-right: auto; }
+.mw100 { max-width: 100%; }
+.mw200 { max-width: 20rem; }
 .mw800 { max-width: 80rem; }
 .p0 { padding: 0; }
+.pb1 { padding-bottom: 1rem; }
+.pl4 { padding-left: 4rem; }
+.pr4 { padding-right: 4rem; }
+.pt1 { padding-top: 1rem; }
+.tal { text-align: left; }
 .tar { text-align: right; }
 .tdn { text-decoration: none; }
+.vam { vertical-align: middle; }
+.vat { vertical-align: top; }
 
-/*.b0 { border: 0; }*/
-/*.db { display: block; }*/
-/*.fi { font: inherit; }*/
-/*.mla { margin-left: auto; }*/
-/*.mra { margin-right: auto; }*/
-/*.mw100 { max-width: 100; }*/
+.bcc { border-collapse: collapse; }
+.bse0e0dc { border: solid #e0e0dc; }
+.bw1001 { border-width: 1px 0 0 1px; }
+.bw0110 { border-width: 0 1px 1px 0; }
+.w100 { width: 100%; }
+
+.mw18 { max-width: 18rem; }
+.fwn { font-weight: normal; }
+.bge4eaee { background-color: #e4eaee; }
+.p6x8 { padding: 0.6rem 0.8rem; }
+
 @media (max-width: 840px) {
   .mw800 { width: auto; }
   .sml2 { margin-left: 2rem; }
