@@ -28,6 +28,7 @@ body {
 .bge4eaee { background-color: #e4eaee; }
 .bgf9 { background-color: #F9F9F9; }
 .bgfff { background-color: #fff; }
+.bi-corn { background-image: url("../images/glenn-carstens-peters-IMRuLuNnFw4-unsplash-800w.jpg"); /* Photo by Glenn Carstens-Peters | https://unsplash.com/photos/IMRuLuNnFw4 */ }
 .bpc { background-position: center; }
 .br3 { border-radius: 0.3rem; }
 .brnr { background-repeat: no-repeat; }
@@ -52,7 +53,6 @@ body {
 .fs40 { font-size: 4.0rem; }
 .fwn { font-weight: normal; }
 .h100p { height: 100%; }
-.h30 { height: 30rem; }
 .jcsb { -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; }
 .lh11 { line-height: 1.1; }
 .lh125 { line-height: 1.25; }
@@ -60,13 +60,13 @@ body {
 .lsn { list-style: none; }
 .m0 { margin: 0; }
 .ma { margin: auto; }
+.ml2 { margin-left: 2rem; }
 .mla { margin-left: auto; }
 .mla { margin-left: auto; }
-.mln3 { margin-left: -3rem; }
 .mr2 { margin-right: 2rem; }
 .mra { margin-right: auto; }
 .mra { margin-right: auto; }
-.mw100 { max-width: 100%; }
+.mw100p { max-width: 100%; }
 .mw18 { max-width: 18rem; }
 .mw200 { max-width: 20rem; }
 .mw800 { max-width: 80rem; }
@@ -74,21 +74,57 @@ body {
 .p6x8 { padding: 0.6rem 0.8rem; }
 .pb1 { padding-bottom: 1rem; }
 .pb15 { padding-bottom: 1.5rem; }
+.pb4 { padding-bottom: 4rem; }
+.pl2 { padding-left: 2rem; }
 .pl3 { padding-left: 3rem; }
 .pl4 { padding-left: 4rem; }
+.pr2 { padding-right: 2rem; }
 .pr3 { padding-right: 3rem; }
 .pr4 { padding-right: 4rem; }
 .pt1 { padding-top: 1rem; }
 .pt15 { padding-top: 1.5rem; }
+.pt4 { padding-top: 4rem; }
+.tac { text-align: center; }
 .tal { text-align: left; }
 .tar { text-align: right; }
 .tdn { text-decoration: none; }
 .vam { vertical-align: middle; }
 .vat { vertical-align: top; }
-.w100 { width: 100%; }
+.wa { width: auto; }
+.w100p { width: 100%; }
 
-@media (max-width: 840px) {
-  .m840-ml2 { margin-left: 2rem; }
-  .m840-mr2 { margin-right: 2rem; }
-  .m840-wa { width: auto; }
+@media (min-width: 500px) {
+  .m500-pb8 { padding-bottom: 8rem; }
+  .m500-pt8 { padding-top: 8rem; }
+  .m500-fs35 { font-size: 3.5rem; }
+  .m500-ml4 { margin-left: 4rem; }
+  .m500-mln2 { margin-left: -2rem; }
+  .m500-mr4 { margin-right: 4rem; }
+  .m500-pl2 { padding-left: 2rem; }
+  .m500-pl3 { padding-left: 3rem; }
+  .m500-pr2 { padding-right: 2rem; }
+  .m500-pr3 { padding-right: 3rem; }
+  .m500-tal { text-align: left; }
+  .m500-wa { width: auto; }
+}
+
+@media (min-width: 600px) {
+  .bi-corn { background-image: url("../images/glenn-carstens-peters-IMRuLuNnFw4-unsplash-1600w.jpg"); /* Photo by Glenn Carstens-Peters | https://unsplash.com/photos/IMRuLuNnFw4 */ }
+}
+
+@media (min-width: 880px) {
+  .m880-pb11 { padding-bottom: 11rem; }
+  .m880-pt11 { padding-top: 11rem; }
+  .m880-fs4 { font-size: 4rem; }
+  .m880-mla { margin-left: auto; }
+  .m880-mln3 { margin-left: -3rem; }
+  .m880-mra { margin-right: auto; }
+  .m880-pl3 { padding-left: 3rem; }
+  .m880-pl4 { padding-left: 4rem; }
+  .m880-pr3 { padding-right: 3rem; }
+  .m880-pr4 { padding-right: 4rem; }
+}
+
+@media (min-width: 1200px) {
+  .bi-corn { background-image: url("../images/glenn-carstens-peters-IMRuLuNnFw4-unsplash-2500w.jpg"); /* Photo by Glenn Carstens-Peters | https://unsplash.com/photos/IMRuLuNnFw4 */ }
 }
