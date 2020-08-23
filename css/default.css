@@ -29,6 +29,7 @@ body {
 .bgf9 { background-color: #F9F9F9; }
 .bgfff { background-color: #fff; }
 .bi-corn { background-image: url("../images/glenn-carstens-peters-IMRuLuNnFw4-unsplash-800w.jpg"); /* Photo by Glenn Carstens-Peters | https://unsplash.com/photos/IMRuLuNnFw4 */ }
+.bi-cotton { background-image: url("../images/trisha-downing-pyud8ZaVq4I-unsplash-800w.jpg"); /* Photo by Trisha Downing | https://unsplash.com/photos/pyud8ZaVq4I */ }
 .bpc { background-position: center; }
 .br3 { border-radius: 0.3rem; }
 .brnr { background-repeat: no-repeat; }
@@ -110,6 +111,7 @@ body {
 
 @media (min-width: 600px) {
   .bi-corn { background-image: url("../images/glenn-carstens-peters-IMRuLuNnFw4-unsplash-1600w.jpg"); /* Photo by Glenn Carstens-Peters | https://unsplash.com/photos/IMRuLuNnFw4 */ }
+  .bi-cotton { background-image: url("../images/trisha-downing-pyud8ZaVq4I-unsplash-1600w.jpg"); /* Photo by Trisha Downing | https://unsplash.com/photos/pyud8ZaVq4I */ }
 }
 
 @media (min-width: 880px) {
@@ -127,4 +129,5 @@ body {
 
 @media (min-width: 1200px) {
   .bi-corn { background-image: url("../images/glenn-carstens-peters-IMRuLuNnFw4-unsplash-2500w.jpg"); /* Photo by Glenn Carstens-Peters | https://unsplash.com/photos/IMRuLuNnFw4 */ }
+  .bi-cotton { background-image: url("../images/trisha-downing-pyud8ZaVq4I-unsplash-2500w.jpg"); /* Photo by Trisha Downing | https://unsplash.com/photos/pyud8ZaVq4I */ }
 }
