@@ -57,7 +57,7 @@
         </ul>
       </nav>
     </header>
-    <main>
+    <main class="mb4">
       <header class="bce2e8f0 bi-corn bpc brnr bsc h20 m500-h30 m500-pb8 m500-pt8 m880-pb11 m880-pt11 pb4 pt4">
         <div class="aic df h100p ml1 mr1 m500-ml4 m500-mr4 m880-mla m880-mra mw800 wa">
           <h1 class="bgf9 br3 ffs fs32 lh125 m0 ml2 mr2 m500-fs35 m500-mln2 m500-pl2 m500-pr2 m500-tal m500-wa m880-fs4 m880-mln3 m880-pl3 m880-pr3 pl1 pr1 pb15 pt15 tac w100p">
@@ -123,14 +123,34 @@
         <p class="fs18 lh17 ffss">Info here...</p>
       </section>
       <section class="m500-ml4 m500-mr4 m880-mla m880-mra ml2 mr2 mw800 wa">
-        <h2 class="fs32 ffs lh11">Crop Prices</h2>
+        <h2 class="fs32 ffs lh11">Crop Futures</h2>
+
         <!--
           corn (https://www.wsj.com/market-data/quotes/futures/CORN/contracts)
           soybeans (https://www.wsj.com/market-data/quotes/futures/SOYBEANS/contracts)
           cotton (https://www.wsj.com/market-data/quotes/futures/COTTON/contracts)
           wheat (https://www.wsj.com/market-data/quotes/futures/WHEAT/contracts)
         -->
-        <p class="fs18 lh17 ffss">Info here...</p>
+
+        <h3 class="fs24 ffs lh125">Corn</h3>
+        <div class="fs18 lh17 ffss" data-crop="corn">
+          Loading...
+        </div>
+
+        <h3 class="fs24 ffs lh125">Wheat</h3>
+        <div class="fs18 lh17 ffss" data-crop="wheat">
+          Loading...
+        </div>
+
+        <h3 class="fs24 ffs lh125">Soybeans</h3>
+        <div class="fs18 lh17 ffss" data-crop="soybeans">
+          Loading...
+        </div>
+
+        <h3 class="fs24 ffs lh125">Cotton</h3>
+        <div class="fs18 lh17 ffss" data-crop="cotton">
+          Loading...
+        </div>
       </section>
     </main>
     <script async src="./js/app.js"></script>
